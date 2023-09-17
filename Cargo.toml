@@ -1,0 +1,11 @@
+[package]
+name = "everest"
+version = "0.1.0"
+edition = "2021"
+readme = "README.md"
+repository = "https://github.com/opstic/everest"
+
+[workspace]
+members = [
+    "crates/*",
+]
